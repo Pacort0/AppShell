@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppShell", "AppShell\AppShell.csproj", "{EE7E514D-9527-4BBC-8DA5-3E268A723AB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE7E514D-9527-4BBC-8DA5-3E268A723AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7E514D-9527-4BBC-8DA5-3E268A723AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7E514D-9527-4BBC-8DA5-3E268A723AB1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EE7E514D-9527-4BBC-8DA5-3E268A723AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7E514D-9527-4BBC-8DA5-3E268A723AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7E514D-9527-4BBC-8DA5-3E268A723AB1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BC883AA-1D20-4F57-BE28-A3F6BE8701A0}
+	EndGlobalSection
+EndGlobal
