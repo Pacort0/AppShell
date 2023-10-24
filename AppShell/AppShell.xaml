@@ -3,16 +3,32 @@
     x:Class="AppShell.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:AppShell"
+    xmlns:local="clr-namespace:AppShell.Views"
     Title="App Shell">
 
-    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+    <Shell.FlyoutHeader>
+        <Image Source="deportes.jpg"/>  
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Title="Deportes">
         <Tab Title="Football"
-             Icon="furbobola.jpg"/>
-        <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+             Icon="furbobola.jpg">
+            <ShellContent Title="Man"
+                          Icon="hombre_icon.jpg"
+                          ContentTemplate="{DataTemplate local:furboMan}"/>
+            <ShellContent Title="Woman"
+              Icon="woman_icono.jpg"
+              ContentTemplate="{DataTemplate local:furboWoman}"/>
+        </Tab>
+        <ShellContent Title="Basketball"
+                      Icon="balonsesto.jpg"
+                      ContentTemplate="{DataTemplate local:baloncesto}" />
+        <ShellContent Title="Tennis"
+                      Icon="pelota_tenis.jpg"
+                      ContentTemplate="{DataTemplate local:tenis}" />
+        <ShellContent Title="Formula 1"
+                      Icon="coche_f1_icono.jpg"
+                      ContentTemplate="{DataTemplate local:formula1}" />
     </FlyoutItem>
 
 </Shell>

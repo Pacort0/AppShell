@@ -49,11 +49,41 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\balonsesto.jpg" />
+	  <None Remove="Resources\Images\coche_f1_icono.jpg" />
+	  <None Remove="Resources\Images\deportes.jpg" />
+	  <None Remove="Resources\Images\fondo.jpg" />
+	  <None Remove="Resources\Images\fotoBaloncesto.jpg" />
+	  <None Remove="Resources\Images\fotoF1.jpg" />
+	  <None Remove="Resources\Images\fotoFutbol.jpg" />
+	  <None Remove="Resources\Images\fotoFutbolFem.jpg" />
+	  <None Remove="Resources\Images\fotoTenis.jpg" />
 	  <None Remove="Resources\Images\furbobola.jpg" />
+	  <None Remove="Resources\Images\hombre_icon.png" />
+	  <None Remove="Resources\Images\mujer_icono.jpg" />
+	  <None Remove="Resources\Images\pelota_tenis.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\baloncesto.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\formula1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\furboMan.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\furboWoman.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\tenis.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
