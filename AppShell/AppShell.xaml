@@ -8,7 +8,7 @@
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <Tab Title="Football"
-             Icon="furbobola.jpg"
+             Icon="furbobola.jpg"/>
         <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
