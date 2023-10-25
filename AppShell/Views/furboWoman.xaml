@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppShell.Views.furboWoman"
-             Title="furboWoman">
+             Title="Fútbol Fem">
     <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" >
         <Label Text="Viva el furbo eono" VerticalOptions="Center" HorizontalOptions="Center" />
 
-        <Image Source="fotoFutbolFem.jpg"/>
+        <Image Source="fotoFutbolFem.jpg" WidthRequest="800" HeightRequest="600"/>
     </VerticalStackLayout>
 </ContentPage>

@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppShell.Views.furboMan"
-             Title="furboMan">
+             Title="Fútbol Masc">
     <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" >
         <Label VerticalOptions="Center" HorizontalOptions="Center"  Text="Viva el furbo eono"/>
 
-        <Image Source="fotoFutbol.jpg"/>
+        <Image Source="fotoFutbol.jpg"  WidthRequest="800" HeightRequest="600"/>
     </VerticalStackLayout>
 </ContentPage>

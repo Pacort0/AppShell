@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppShell.Views.baloncesto"
-             Title="baloncesto">
+             Title="Baloncesto">
     <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" >
         <Label Text="Viva el baloncesto eono" VerticalOptions="Center" HorizontalOptions="Center" />
 
-        <Image Source="fotoBaloncesto.jpg"/>
+        <Image Source="fotoBaloncesto.jpg" WidthRequest="800" HeightRequest="600"/>
     </VerticalStackLayout>
 </ContentPage>
