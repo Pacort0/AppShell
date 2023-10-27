@@ -4,8 +4,7 @@
              x:Class="AppShell.Views.formula1"
              Title="Fórmula 1">
     <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" >
-        <Label 
-            Text="Viva la formula 1 eono"/>
+        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="Viva la formula 1 eono"/>
 
         <Image Source="fotoF1.jpg"  WidthRequest="800" HeightRequest="600"/>
     </VerticalStackLayout>
